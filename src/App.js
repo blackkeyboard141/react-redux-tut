@@ -14,7 +14,7 @@ class App extends React.Component {
             <img
               src={logo}
               className={
-                "App-logo" + (this.props.rotating ? "" : " App-logo-paused")
+                "App-logo-one" + (this.props.rotating ? "" : " App-logo-paused")
               }
               alt="logo"
             />
@@ -30,7 +30,7 @@ class App extends React.Component {
             <img
               src={logo}
               className={
-                "App-logo" + (this.props.rotating ? "" : " App-logo-paused")
+                "App-logo-two" + (this.props.rotating ? "" : " App-logo-paused")
               }
               alt="logo"
             />
@@ -54,7 +54,7 @@ class App extends React.Component {
             <img
               src={abrar}
               className={
-                "App-logo" + (this.props.rotating ? "" : " App-logo-paused")
+                "App-logo-two" + (this.props.rotating ? "" : " App-logo-paused")
               }
               alt="logo"
             />

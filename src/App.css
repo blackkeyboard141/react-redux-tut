@@ -8,6 +8,18 @@
   pointer-events: none;
 }
 
+.App-logo-one {
+  animation: App-logo-spin infinite 1s linear alternate;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-logo-two {
+  animation: App-logo-spin infinite 1s linear alternate-reverse;
+  height: 40vmin;
+  pointer-events: none;
+}
+
 .App-logo-paused {
   animation-play-state: paused;
 }
